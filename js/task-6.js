@@ -33,7 +33,7 @@ document.querySelector("[data-create]").addEventListener("click", () => {
 
   if (amount >= 1 && amount <= 100) {
     destroyBoxes();
-    createBoxes(5);
+    createBoxes(amount);
     input.value = "";
   } else {
     alert("Будь ласка, введіть число від 1 до 100.");
